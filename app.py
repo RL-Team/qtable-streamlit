@@ -9,7 +9,6 @@ def update_q_table(q_table, state, action, reward, learning_rate=0.1, discount_f
     q_table[state][action] = new_q
 
     return q_table
-
 # Streamlit web app
 def main():
     st.title("Q-Table Updation")
